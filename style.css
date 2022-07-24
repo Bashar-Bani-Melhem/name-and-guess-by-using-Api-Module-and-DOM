@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FBEAEB;
+}
+header{
+    border: 0.2rem solid black;
+    color: aliceblue;
+    background-color: #00539CFF;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 7vh;
+    font-size: xx-large;
+    font-style: italic;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content:flex-start;
+    align-content: flex-start;
+    justify-items: flex-start;
+    align-items: flex-start;
+}
+#formAndData{
+    display: flex;
+    flex-direction: column;
+    
+}
+#localStorage{
+    height: fit-content;
+    border-bottom: 0.2rem solid black;
+    border-right: 0.2rem solid black;
+    border-left: 0.2rem solid black;
+
+    color: aliceblue;
+    background-color: #00539CFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#localStorageHeader{
+    margin: 1vw;
+    border-bottom:0.2rem double black ;
+    font-style: italic;
+}
+form{
+    margin-top: 2rem;
+    margin-left:8rem ;
+    display: flex;
+    flex-direction: column;
+    
+}
+#inputLabel,#firstname,#subbtn{
+    height:1.2rem ;
+    width: 10rem;
+}
+#namediv{
+    margin-top: 4rem;
+    margin-left: 8rem;
+    display: flex;
+    flex-direction: column;
+}
+#countries{
+    display: grid;
+    gap: 5px;
+}
+img{
+    height: 12vh;
+    width: 18vw;
+}
+/* #name,#gender,#age,#national,#countries{
+    font-weight: bold;
+} */
+h4{
+    display: inline;
+}
